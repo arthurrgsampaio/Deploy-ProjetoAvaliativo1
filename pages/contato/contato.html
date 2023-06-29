@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Nunito+Sans:opsz,wght@6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="../../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <title>s1 - O portal de notícias da SoulCode</title>
+  </head>
+
+  <body>
+    <header>
+      <nav id="navHeader">
+        <!-- logo clicável -->
+        <a href="../../index.html" id="logoAnchor">
+          <p id="logo">s1</p>
+        </a>
+
+        <!-- links do nav -->
+        <div id="navLinks">
+          <a href="../../index.html#localNews" class="links">Notícias Locais</a>
+          <a href="../../index.html#politics" class="links">Política</a>
+          <a href="../../index.html#sports" class="links">Esportes</a>
+          <a href="../../index.html#entertainment" class="links"
+            >Entreterimento</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <div id="contactMain">
+      <h1 id="contactTitle">Fale Conosco!</h1>
+      <div id="formOrg">
+        <form action="#" id="contactForm">
+          <!-- Input de Nome -->
+          <label for="name">Digite seu nome: </label>
+          <input type="text" name="name" id="name" required />
+          <br />
+          <!-- Input de Email -->
+          <label for="email">Digite um email válido: </label>
+          <input type="email" name="email" id="email" required />
+          <br />
+          <!-- Seletor de assunto -->
+          <label for="assunto">Selecione o assunto: </label>
+          <select name="assunto" id="assunto" required>
+            <option value="" disabled selected>Selecione um motivo</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="elogio">Elogio</option>
+            <option value="duvidas">Dúvidas</option>
+          </select>
+          <br />
+          <!-- Área de escrita  -->
+          <textarea
+            name="infos"
+            id="infos"
+            placeholder="Digite aqui seu texto"
+            required
+          ></textarea>
+          <br />
+          <button type="submit" class="contactBtn" id="enviar">Enviar</button>
+          <button type="reset" class="contactBtn" id="recomecar">
+            Recomeçar
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div id="foot">
+        <!-- copyright -->
+        <p id="footerCopy">&copy; 2023 Arthur Rodrigues e SoulCode</p>
+
+        <!-- links do footer -->
+        <div id="footerLinks">
+          <a
+            href="https://www.instagram.com/soulcodeacademy/"
+            target="_blank"
+            class="links 1"
+            >Instagram</a
+          >
+          <a
+            href="https://www.linkedin.com/company/soulcodeacademy/"
+            target="_blank"
+            class="links 2"
+            >Linkedin</a
+          >
+          <a href="./pages/contato/contato.html" class="links 3"
+            >Fale Conosco</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

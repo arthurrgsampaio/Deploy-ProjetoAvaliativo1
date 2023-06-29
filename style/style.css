@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  /* padding: 0; */
+  box-sizing: border-box;
+}
+
+#navHeader {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  /* margin: -10px; */
+  background-color: #0a4f64;
+  font-family: "Belanosima", sans-serif;
+}
+
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f5f5f5;
+  padding: 0;
+}
+
+#logoAnchor {
+  text-decoration: none;
+}
+
+.links {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: whitesmoke;
+  padding: 0 15px;
+}
+
+main {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #edfbff;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas: "left left left left right";
+}
+
+#title {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 25px;
+  color: #00161b;
+  width: 1000px;
+}
+
+#author {
+  margin: 10px;
+}
+
+#principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#articlesItens {
+  width: 800px;
+}
+
+.imgs {
+  width: 600px;
+  height: 350px;
+  border-radius: 20px;
+  margin: 15px;
+}
+
+.listItens {
+  display: flex;
+  background-color: #0a4f645e;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.text {
+  margin-top: 35px;
+  width: 500px;
+  font-size: 20px;
+}
+
+.text > a {
+  color: #00161b;
+}
+
+.text > p {
+  color: #00161b;
+  margin-top: 10px;
+}
+
+.innerText {
+  width: 800px;
+  font-size: 20px;
+}
+
+#innerImg {
+  width: 900px;
+  border-radius: 30px;
+  margin: 15px 0;
+}
+
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#populares {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#classification {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.lpTitles {
+  text-align: center;
+  font-size: 40px;
+  color: #00161b;
+  padding-top: 15px;
+  font-weight: 700;
+}
+
+.tabela {
+  text-align: center;
+  border: 2px solid #00161b;
+  margin: 15px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #00161b;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #00161b;
+  padding: 5px 15px;
+  font-size: 15px;
+}
+
+th {
+  padding: 2px 8px;
+  font-size: 15px;
+}
+
+.noticia {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 380px;
+  padding: 15px;
+  width: 800px;
+}
+
+.NNTitle {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.authorData {
+  font-size: 17px;
+  padding-bottom: 5px;
+  font-weight: 500;
+}
+
+.NNText {
+  font-size: 16px;
+}
+
+#foot {
+  height: 60px;
+  background-color: #00161b;
+  color: whitesmoke;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+}
+
+#left {
+  grid-area: left;
+}
+
+#right {
+  grid-area: right;
+}
+
+#tab {
+  background-color: #0a4f645e;
+  padding: 15px;
+  border-radius: 20px;
+  position: fixed;
+  right: 25;
+  top: 195px;
+}
+
+.tabLinks {
+  text-decoration: none;
+  color: #00161b;
+  font-size: 20px;
+}
+
+.tablinks:visited {
+  color: #00161b;
+}
+
+#contactMain {
+  font-family: "Nunito Sans", sans-serif;
+  background-color: #edfbff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 83.1vh;
+}
+
+#contactTitle {
+  font-size: 40px;
+  color: #00161b;
+  padding-top: 15px;
+  font-weight: 700;
+}
+
+#formOrg {
+  display: flex;
+  padding: 30px 80px;
+  background-color: #00161b4f;
+  border-radius: 15px;
+  border: none;
+  box-shadow: none;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+#name,
+#email,
+#assunto {
+  width: 300px;
+  height: 30px;
+  font-size: 20px;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  border: none;
+}
+
+#infos {
+  width: 300px;
+  height: 100px;
+  font-size: 20px;
+  background-color: #e7e7e7;
+  border-radius: 10px;
+  border: none;
+}
+
+.contactBtn {
+  height: 45px;
+  margin: 10px;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+#enviar:hover {
+  background-color: #0a4f64;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#recomecar:hover {
+  background-color: #640a0a;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+#subir {
+  text-decoration: none;
+  background-color: rgb(216, 216, 216);
+  color: rgb(39, 39, 39);
+  padding: 17px;
+  position: fixed;
+  right: 25px;
+  bottom: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
