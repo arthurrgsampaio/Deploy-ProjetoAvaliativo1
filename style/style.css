@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-around;
   padding: 30px;
-  /* margin: -10px; */
   background-color: #0a4f64;
   font-family: "Belanosima", sans-serif;
 }
@@ -159,8 +158,6 @@ th {
 .noticia {
   display: flex;
   flex-direction: column;
-  position: relative;
-  left: 380px;
   padding: 15px;
   width: 800px;
 }
@@ -179,6 +176,20 @@ th {
 
 .NNText {
   font-size: 16px;
+}
+
+.newsSpace {
+  display: grid;
+  grid-template-columns: 380px, 1fr;
+  grid-template-areas: "blank texto";
+}
+
+.blankSpace {
+  grid-area: blank;
+}
+
+.textSpace {
+  grid-area: texto;
 }
 
 #foot {
