@@ -137,19 +137,6 @@ main {
   margin: 15px;
 }
 
-table,
-th,
-td {
-  border: 1px solid #00161b;
-  border-collapse: collapse;
-}
-
-td {
-  border: 1px solid #00161b;
-  padding: 5px 15px;
-  font-size: 15px;
-}
-
 th {
   padding: 2px 8px;
   font-size: 15px;
@@ -190,6 +177,13 @@ th {
 
 .textSpace {
   grid-area: texto;
+}
+
+#videoArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 0;
 }
 
 #foot {
